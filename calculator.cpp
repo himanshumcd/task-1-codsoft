@@ -30,14 +30,13 @@ int main() {
     cout <<"calculator" << endl;
    
 
-    // Input the two numbers
     cout << "Enter the first number: ";
     cin >> num1;
 
     cout << "Enter the second number: ";
     cin >> num2;
 
-    // Menu of operations
+
     cout << "\nSelect opetation to perform:" << endl;
     cout << "1. Addition (+)" << endl;
     cout << "2. Subtraction (-)" << endl;
@@ -46,7 +45,6 @@ int main() {
     cout << "Enter your choice: ";
     cin >> choice;
 
-    // Perform the chosen operation
     switch (choice) {
         case 1:
             cout << "Result: " << addition(num1, num2) << endl;
@@ -63,6 +61,5 @@ int main() {
         default:
             cout << "invalid" << endl;
     }
-
     return 0;
 }
